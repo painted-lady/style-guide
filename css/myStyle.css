@@ -1,0 +1,22 @@
+html * {
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+
+.myImages {
+background-color: red;
+padding: 10px;
+margin: 10px;
+width: 35%;
+}
+
+a:hover {
+    color: green;
+}
+
+h1 {
+    font-size: 35px;
+}
+.mySection * {
+color: black;
+}
