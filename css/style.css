@@ -55,7 +55,7 @@
   
   /* Sets up font-face for body copy */ 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Avenir, Montsserat, sans-serif;
     color: black;
     line-height: 1.4em;
   }
@@ -67,7 +67,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Avenir", sans-serif;
     color: navy;
     line-height: 1em;
   }
@@ -94,11 +94,11 @@
   }
   
   .type-faces-01 {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   
   .type-faces-02 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Avenir", sans-serif;
   }
   
   
@@ -122,36 +122,36 @@
   }
   
   /* Makes colors */ 
-  .color-red {
-    background: red;
+  .color-forestgreen {
+    background:rgb(30,64,71);
   }
   
   .color-orange {
-    background: orange;
+    background: rgb(225,146,57);
   }
   
-  .color-yellow {
-    background: yellow;
+  .color-lightgrey {
+    background:rgb(162,167,170);
   }
   
-  .color-green {
-    background: green;
+  .color-darkgrey {
+    background:rgb(62,62,66);
   }
   
-  .color-blue {
-    background: blue;
+  .color-teal {
+    background:rgb(110,137,148);
+  }
+  
+  .color-dustypink {
+    background: rgb(182,167,161);
   }
   
   .color-purple {
-    background: indigo;
+    background:rgb(93,88,97);
   }
   
-  .color-black {
-    background: black;
-  }
-  
-  .color-gray {
-    background: gray;
+  .color-beige {
+    background:rgb(197,179,159);
   }
   
   /* 
@@ -161,35 +161,82 @@
   */
    
   .button button {
-    height: 40px;
-    width: 120px;
-    border-radius: 4px;
+   
     padding: 5px;
     margin: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
+    font-family: "Avenir", sans-serif;
+    font-weight: 800;
   }
   
   .button-normal {
-    background: rgb(51, 51, 102);
+    background: rgb(110,137,148);
     color: rgb(255, 255, 255);
+    height: 60px;
+    width: 180px;
   }
   
   .button-hover {
-    background: rgb(215, 215, 215);
-    color: rgb(51, 51, 102);
+    background: rgb(187,174,168);
+    color: rgb(255,255,255);
+    height: 60px;
+    width: 180px;
   }
   
-  .button-pressed,
-  .button-loading {
-    background: rgb(215, 215, 215);
-    color: rgb(51, 51, 102);
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  .button-active {
+    background: rgb(182,167,161);
+    color: rgb(255,255,255);
+    height: 60px;
+    width: 180px;
+   
+  }
+  .button-normal2 {
+    background: rgb(225,146,57);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
   }
   
-  .button-disabled {
-  
+  .button-hover2 {
+    background: rgb(231,167,96);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
   }
+  
+  .button-active2 {
+    background: rgb(229,130,19);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+   
+  }
+  .button-normal3 {
+    background: rgb(93,88,97);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .button-hover3 {
+    background: rgb(141,136,145);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .button-active3 {
+    background: rgb(77,74,80);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+  }
+  
   
   /* 
   ==========================
@@ -208,10 +255,10 @@
     color: rgb(51, 51, 102);
   }
   
-  .svg-icons img {
+  .png-icons img {
     margin-top: 40px;
-    width: 100px;
-    height: 100px;
+
+    height: 60px;
   }
   
   /* footer iconography */
